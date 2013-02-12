@@ -12,10 +12,8 @@ end
 
 def save(id, link)
   if (id =~ /^[a-zA-Z0-9\-_]*$/) != 0 or id.length<3 or not find(id).nil?
-    status 400 # Bad Request
     "Error: id invalid or already in use"
   elsif link.length < 3 or not link =~ %r{\Ahttps?://}
-    status 400 # Bad Request
     "Error: invalid link"
   else 
     if REDIS.set(id, link) == "OK"

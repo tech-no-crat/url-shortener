@@ -1,4 +1,4 @@
 redis:
-  host: "localhost"
+  host: ""
   port: 9491
   password: ""
