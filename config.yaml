@@ -1,4 +1,4 @@
 redis:
-  host: ""
+  host: "dory.redistogo.com"
   port: 9491
-  password: ""
+  password: "07955xxxxxxxxxxxxxxxxxxxxxxxxxxx"

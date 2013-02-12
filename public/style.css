@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Actor|Oxygen);
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1E5DE6;
+}
+
+#content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#about {
+  text-align: center;
+  font-size: 20px;
+}
+
+#logo {
+  color: #1E5DE6;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Actor', sans-serif;
+    cursor: pointer;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+h1:hover {
+  -webkit-transition: text-shadow 0.5s;
+}
+
+#id-input {
+  margin-top: 30px;
+}
+
+form {
+  width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+label {
+  width: 246px;
+  height: 31px;
+  float: left;
+  background-color: #EEE;
+  text-align: center;
+  line-height: 31px;
+  border: 2px solid #CCC;
+  border-right: 0px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#result {
+  clear: both;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  background-color: #EEE;
+  border: 2px solid #CCC;
+  border-top-width: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: none;
+  font-size: 14px;
+}
+
+#result.success {
+  display: block;
+  color: #004014;
+  background-color: #cdeb8b
+}
+
+#result.failure {
+  display: block;
+  color: #6E0000;
+  background: #F53333;
+}
+
+input:focus {
+  outline: none;
+}
+
+input.txt {
+  height: 25px;
+  font-size: 20px;
+  border-color: #CCC;
+  color: #333;
+}
+
+#link {
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+#link:focus {
+  box-shadow: 0 0 7px rgba(0, 200, 204, 0.7);
+}
+
+#id {
+  float: left;
+  width: 240px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 0;
+  padding: 3px;
+}
+
+#submit {
+  margin-top: 30px;
+  width: 250px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 3px;
+  clear: both;
+  border: 2px solid #CCC;
+  cursor: pointer; 
+
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+  background: linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+#submit:active {
+  background: #eeeeee; /* Old browsers */
+  background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+  background: linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
+footer a {
+  margin: 20px;
+}
