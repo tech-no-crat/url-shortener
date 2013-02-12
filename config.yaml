@@ -2,5 +2,3 @@ redis:
   host: "localhost"
   port: 9491
   password: ""
-
-domain: 'localhost:4567'
